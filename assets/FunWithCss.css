@@ -1,0 +1,42 @@
+@font-face{
+
+}
+head{
+}
+body{
+	background-image: url(../assets/bambi.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+ul li{
+ 	font-family: 'Julius Sans One', sans-serif;
+    text-align: left;
+    color:#5CA4A9;
+    list-style: none;
+    margin: 10px;
+
+
+}
+h1{
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	text-align: center;
+	background-color: #000;
+	color:#fff;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+.container{
+	width:800px;
+	margin: 0px start;
+	flex-direction: row;
+}
+#box1, #box2, #box3{
+	width:200px;
+	height:200px;
+	border:1px solid #00f;
+	margin:20px 0px 0px 3px;
+	background-color: #000;
+	color:#fff;
+}
